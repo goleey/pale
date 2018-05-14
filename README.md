@@ -1,5 +1,5 @@
 # Inroduction
-We implement the code in "Predict Anchor Links across Social Networks via an Embedding Approach" (http://www.ijcai.org/Proceedings/16/Papers/261.pdf).The first stage that is learning representations of source and target networks is done by https://github.com/tangjianpku/LINE.git or https://github.com/thunlp/OpenNE.git here;
+We implement the code in "Predict Anchor Links across Social Networks via an Embedding Approach" (http://www.ijcai.org/Proceedings/16/Papers/261.pdf). The first stage that is learning representations of source and target networks is done by https://github.com/tangjianpku/LINE.git or https://github.com/thunlp/OpenNE.git here;
 and the source code "pale_stage2.py" implements the mapping function of PALE with tensorflow.
 
 
