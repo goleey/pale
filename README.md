@@ -1,5 +1,6 @@
 # Inroduction
-The source code "pale_stage2.py" implements the mapping function of PALE with tensorflow. The first stage that is learning representations of source and target networks is done by https://github.com/tangjianpku/LINE.git or https://github.com/thunlp/OpenNE.git here.
+We implement the code in "Predict Anchor Links across Social Networks via an Embedding Approach" (http://www.ijcai.org/Proceedings/16/Papers/261.pdf).The first stage that is learning representations of source and target networks is done by https://github.com/tangjianpku/LINE.git or https://github.com/thunlp/OpenNE.git here;
+and the source code "pale_stage2.py" implements the mapping function of PALE with tensorflow.
 
 
 # Run
@@ -12,7 +13,7 @@ linear or non linear:1 for linear and  0 for non linear
 train_file: observed anchor links to train the mapping function  
 validation_file: observed anchor links to tune the hyper parameters  
 test_file: test the performance(mrr and hit@1)  
-**the last one** is the mapping embedding test node in the of source network:
+**the last one** is the mapping embedding test node in the of source network:  
 mapped_source_embedding: the mapped embedding
 # File format
 ##### soure_embedding:
